@@ -1,0 +1,20 @@
+[
+  {
+    "OutPutFileName": "wwwroot/css/site.min.css",
+    "InputFileName": [
+      "wwwroot/css/site.css"
+    ]
+  },
+  {
+    "OutPutFileName": "wwwroot/css/styles.min.scss",
+    "InputFileName": [
+      "wwwroot/css/styles.scss"
+    ]
+  },
+  {
+    "OutPutFileName": "wwwroot/css/site.min.js",
+    "InputFileName": [
+      "wwwroot/css/site.js"
+    ]
+  }
+]

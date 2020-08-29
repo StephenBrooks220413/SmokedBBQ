@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["Title"] = "Menu Page";
+}
+
+<div class="jumbotron">
+    <div class="card card-body text-center">
+        <h1 class="card-title display-4">Our Menu</h1>
+        <p class="card-footer">Serving times start at 10am and ends at 9pm</p>
+    </div>
+</div>
+
+<div class="container" style="margin-top:90px;">
+    <div class="row links-wrapper">
+        <div class="col-sm-3 col-md-3 text-center" style="margin-top:10px;">
+            <a class="nav-link text-center" asp-area="" asp-controller="Home" asp-action="Breakfast">Breakfast</a>
+            <div class="box-shadow">
+                <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width="90%" alt="Alternate Text" />
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-3 text-center" style="margin-top:10px;">
+            <a class="nav-link text-center" asp-area="" asp-controller="Home" asp-action="Brunch">Brunch</a>
+            <div class="box-shadow">
+                <img src="https://images.unsplash.com/photo-1492683962492-deef0ec456c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1038&q=80" width="90%" alt="Alternate Text" />
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-3 text-center" style="margin-top:10px;">
+            <a class="nav-link text-center" asp-area="" asp-controller="Home" asp-action="Lunch">Lunch</a>
+            <div class="box-shadow">
+                <img src="https://images.unsplash.com/photo-1543339308-43e59d6b73a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" width="90%" alt="Alternate Text" />
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-3 text-center" style="margin-top:10px;">
+            <a class="nav-link text-center" asp-area="" asp-controller="Home" asp-action="Dinner">Dinner</a>
+            <div class="box-shadow">
+                <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80" width="90%" alt="Alternate Text" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<center>
+    <div class="item-wrapper jumbotron" style="background-color:white; margin-top:90px;">
+        <h1 class="display-3">Explore our Menu Items</h1>
+        <br /> <br />
+        <button class="btn btn-outline-info item-1" onclick="breakfast()">breakfast</button> <span class="item-1-1" id="breakfast"><em>Click button to see breakfast menu</em></span> <br />
+        <button class="btn btn-outline-info item-2" onclick="brunch()">brunch</button><span class="item-2-2" id="brunch"><em>Click button to see brunch menu</em></span> <br />
+        <button class="btn btn-outline-info item-3" onclick="lunch()">lunch</button> <span class="item-3-3" id="lunch"><em>Click button to see lunch menu</em></span> <br />
+        <button class="btn btn-outline-info item-4" onclick="dinner()">dinner</button> <span class="item-4-4" id="dinner"><em>Click button to see dinner menu</em></span> <br />
+    </div>
+</center>
+
+<div itemprop="articleSection" itemscope class="jumbotron" style="margin-top:90px; margin-bottom:110px; background-color:white;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 text-center">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" width="95%" alt="Alternate Text" />
+                </div> 
+            </div>
+            <div class="col-md-4 text-center">
+                <article class="card card-body">
+                    <h4>Articles</h4>
+                    <ul>
+                        <li>my profile</li>
+                        <li>assets</li>
+                        <li>suggestions</li>
+                        <li>headlines</li>
+                    </ul><br />
+                    <div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+﻿.jumbotron-1 {
+    background: url(https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    padding-top:140px;
+    color: teal;
+    font-weight:600;
+}
