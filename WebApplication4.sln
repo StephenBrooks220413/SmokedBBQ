@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication4", "WebApplication4.csproj", "{7FD9D969-084B-4BDB-900F-5D6A08B50841}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactBBQ", "..\..\ReactBBQ\ReactBBQ.csproj", "{1A103799-0333-4CE2-A5ED-E4612E72A79A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{7FD9D969-084B-4BDB-900F-5D6A08B50841}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FD9D969-084B-4BDB-900F-5D6A08B50841}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FD9D969-084B-4BDB-900F-5D6A08B50841}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1A103799-0333-4CE2-A5ED-E4612E72A79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1A103799-0333-4CE2-A5ED-E4612E72A79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1A103799-0333-4CE2-A5ED-E4612E72A79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1A103799-0333-4CE2-A5ED-E4612E72A79A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
