@@ -7,6 +7,17 @@
       "sslPort": 44340
     }
   },
+  {
+    "installed": {
+      "client_id": "222200448955-9cr4usvgeb6kc943rbo1f0d3t9dmbjvt.apps.googleusercontent.com",
+      "project_id": "devprofile-1585502541218",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_secret": "4-VwJ7zweijQ0hPDYrdDNXAM",
+      "redirect_uris": [ "urn:ietf:wg:oauth:2.0:oob", "http://localhost" ]
+    }
+  },
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",

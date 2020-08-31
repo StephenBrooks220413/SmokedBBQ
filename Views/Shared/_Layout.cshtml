@@ -45,16 +45,17 @@
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
 
     <!--Google sign in & sign out button/link-->
     <div class="g-signin2" data-onsuccess="onSignIn"></div>
     <a href="#" onclick="signOut();">Sign out</a>
     <!--Google sign in & sign out button/link-->
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
 
     <footer class="footer">
         <center>
